@@ -69,7 +69,7 @@ function fetchAnimalGifs() {
       var newDiv = $("<div>");
       newDiv.addClass("animalGif");
 
-      var newRating = $("<h2>").html("Rating: " + dataArray[i].rating);
+      var newRating = $("<h5 >").html("Rating: " + dataArray[i].rating);
       newDiv.append(newRating);
 
       var newImg = $("<img>");
