@@ -1,10 +1,10 @@
 // ----- Game Variables ----- //
 
 // Initial array of animals
-var animalsArr = ["fox", "cat", "pig", "tiger", "cheetah",
-                  "giraffe", "hedgehog", "skunk", "guinea pig", "lizard",
+var animalsArr = ["dog", "cat", "lion", "tiger", "cheetah",
+                  "giraffe", "ferret", "skunk", "pig", "deer",
                   "goat", "horse", "cow", "alligator", "kangaroo",
-                  "panda", "koala", "deer", "elephant", "racoon", "squirrel"];
+                  "panda", "koala", "polar bear", "elephant", "racoon", "squirrel"];
 
 // ----- Helper Functions ----- //
 
