@@ -69,15 +69,18 @@ function fetchAnimalGifs() {
       var newDiv = $("<div>");
       newDiv.addClass("animalGif");
 
-      var newRating = $("<h5 >").html("Rating: " + dataArray[i].rating);
-      newDiv.append(newRating);
-
       var newImg = $("<img>");
       newImg.attr("src", dataArray[i].images.fixed_height_still.url);
       newImg.attr("data-still", dataArray[i].images.fixed_height_still.url);
       newImg.attr("data-animate", dataArray[i].images.fixed_height.url);
       newImg.attr("data-state", "still");
       newDiv.append(newImg);
+
+      var newRating = $("<h5 >").html("Rating: " + dataArray[i].rating.toUpperCase());
+      newDiv.append(newRating);
+
+      var newTitle = $("<h5 >").html("Title: " + dataArray[i].title.toUpperCase());
+      newDiv.append(newTitle);
 
       // Append the new Gifs to the gifPanel
       $("#gifPanel").append(newDiv);
