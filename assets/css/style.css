@@ -1,7 +1,9 @@
 body {
     background-color: rgb(212, 241, 245);
+    font-family: 'Raleway', sans-serif;
 }
 .jumbotron {
+    font-family: 'Raleway', sans-serif;
     background-color: #0497F2;
     border: solid 2px;
 }
