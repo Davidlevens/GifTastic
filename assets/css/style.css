@@ -4,13 +4,19 @@ body {
 }
 .jumbotron {
     font-family: 'Raleway', sans-serif;
+    text-shadow: -2px 2px 1px rgba(37,16,10,0.46);
     background-color: #0497F2;
     border: solid 2px;
 }
-    
- .animalButton {
+
+   
+.animalButton {
     background-color: #49D806;
     font-size: 20px;
+}
+
+.inputLabel {
+    font-size: 15px;
 }
 
 .animalGif {
