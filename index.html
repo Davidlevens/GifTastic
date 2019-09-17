@@ -22,8 +22,9 @@
     <!-- Jumbotron with Title -->
     <div class="jumbotron">
 
-      <h1 class="text-center"><strong>Welcome to GifTastic Entertainment!</strong></h1>
-      <h2 class="text-center" id="instructions">Press the buttons to see the action</h2>
+      <h1 class="text-center"><strong>GifTastic Gizmo!</strong></h1>
+      <h2 class="text-center" id="instructions">Click to see gifs of your favorite animal, Click a gif see it in action.</h2>
+      <h3 class="text-center" id='search-terms'>Try searching for anything you would like to see.</h3>
 
     </div> <!-- End Jumbotron -->
 
@@ -41,8 +42,8 @@
       <!-- Right panel containing the user form -->
       <div class="col-lg-2 formPanel">
         <form id="animal-form">
-          <label for="animal-input" class="inputLabel">Add an animal</label>
-          <input type="text" id="animal-input"><br>
+          <label for="animal-input" class="inputLabel">Add anything you like!</label>
+          <input type="text" id="animal-input" autocomplete="off"><br>
 
           <!-- Button triggers a new animal to be added -->
           <input id="add-animal" type="submit" value="Submit">

@@ -4,7 +4,7 @@
 var animalsArr = ["dog", "cat", "lion", "tiger", "cheetah",
                   "giraffe", "ferret", "skunk", "pig", "deer",
                   "goat", "horse", "cow", "alligator", "kangaroo",
-                  "panda", "koala", "polar bear", "elephant", "racoon", "squirrel"];
+                  "panda", "koala", "bear", "elephant", "racoon", "squirrel"];
 
 // ----- Helper Functions ----- //
 
