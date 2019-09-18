@@ -9,3 +9,4 @@ My tutor was very helpful in teaching me the intricasies of the API call as well
 In addition, I learned how to add autocomplete="off" to my form html to keep browser from trying to help with the input field.
 
 I will continue to add to this project in the future to make it's appearance more pleasing, and also give the user more choices of where to find the gifs.
+GifTastic link: https://davidlevens.github.io/GifTastic/
