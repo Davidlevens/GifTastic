@@ -52,7 +52,7 @@ function fetchAnimalGifs() {
 
   // Construct the Giphy URL
   var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animalStr + 
-                 "&rating=pg-13&limit=10&api_key=zAKCkW5qKf6676K0dxpgO5RcCZ4bBsef";
+                 "&rating=pg-13&limit=10&api_key=VPR2P1FhcR1Y9VPXhBm036td9dUdPgUQ";
 
   // Make the AJAX call to the Giphy API
   $.ajax({
